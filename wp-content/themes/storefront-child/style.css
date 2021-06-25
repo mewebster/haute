@@ -11,3 +11,7 @@
  Tags:
  Text Domain: storefront-child
 */
+
+body {
+  background: blue;
+}
