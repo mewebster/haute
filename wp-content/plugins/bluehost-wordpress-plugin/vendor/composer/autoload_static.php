@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit8b7130ec2f8408b204c38f83ebd7e937
+class ComposerStaticInit44abe594fca6c0f5d0ecfc3bf89b6c7e
 {
     public static $files = array (
         '637fa4e5a9fe2956d844ead1daab0f31' => __DIR__ . '/..' . '/bluehost/endurance-wp-module-business-reviews/bootstrap.php',
@@ -26,10 +26,6 @@ class ComposerStaticInit8b7130ec2f8408b204c38f83ebd7e937
         'P' => 
         array (
             'Psr\\Container\\' => 14,
-        ),
-        'N' => 
-        array (
-            'Newfold\\Plugin\\' => 15,
         ),
         'E' => 
         array (
@@ -60,10 +56,6 @@ class ComposerStaticInit8b7130ec2f8408b204c38f83ebd7e937
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
-        ),
-        'Newfold\\Plugin\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/inc',
         ),
         'Endurance_WP_Plugin_Updater\\' => 
         array (
@@ -188,13 +180,6 @@ class ComposerStaticInit8b7130ec2f8408b204c38f83ebd7e937
         'Endurance_Options' => __DIR__ . '/..' . '/bluehost/endurance-wp-module-loader/includes/Options.php',
         'Endurance_WP_Plugin_Updater\\Plugin' => __DIR__ . '/..' . '/bluehost/endurance-wp-plugin-updater/Plugin.php',
         'Endurance_WP_Plugin_Updater\\Updater' => __DIR__ . '/..' . '/bluehost/endurance-wp-plugin-updater/Updater.php',
-        'Newfold\\Plugin\\DefaultContent\\Pages' => __DIR__ . '/../..' . '/inc/DefaultContent/Pages.php',
-        'Newfold\\Plugin\\DefaultContent\\PagesRestController' => __DIR__ . '/../..' . '/inc/DefaultContent/PagesRestController.php',
-        'Newfold\\Plugin\\RestApi\\BaseHiiveController' => __DIR__ . '/../..' . '/inc/RestApi/BaseHiiveController.php',
-        'Newfold\\Plugin\\Tours\\BlockEditor' => __DIR__ . '/../..' . '/inc/Tours/BlockEditor.php',
-        'Newfold\\Plugin\\Tours\\BlockEditorRestController' => __DIR__ . '/../..' . '/inc/Tours/BlockEditorRestController.php',
-        'Newfold\\Plugin\\Tours\\Customizer' => __DIR__ . '/../..' . '/inc/Tours/Customizer.php',
-        'Newfold\\Plugin\\Tours\\Shared' => __DIR__ . '/../..' . '/inc/Tours/Shared.php',
         'Pimple\\Container' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Container.php',
         'Pimple\\Exception\\ExpectedInvokableException' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Exception/ExpectedInvokableException.php',
         'Pimple\\Exception\\FrozenServiceException' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Exception/FrozenServiceException.php',
@@ -226,10 +211,10 @@ class ComposerStaticInit8b7130ec2f8408b204c38f83ebd7e937
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit8b7130ec2f8408b204c38f83ebd7e937::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit8b7130ec2f8408b204c38f83ebd7e937::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit8b7130ec2f8408b204c38f83ebd7e937::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit8b7130ec2f8408b204c38f83ebd7e937::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit44abe594fca6c0f5d0ecfc3bf89b6c7e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit44abe594fca6c0f5d0ecfc3bf89b6c7e::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit44abe594fca6c0f5d0ecfc3bf89b6c7e::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit44abe594fca6c0f5d0ecfc3bf89b6c7e::$classMap;
 
         }, null, ClassLoader::class);
     }

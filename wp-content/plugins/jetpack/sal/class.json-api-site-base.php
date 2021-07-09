@@ -167,13 +167,8 @@ abstract class SAL_Site {
 		return 0; // WPForTeams\Constants\NO_ORG_ID not loaded.
 	}
 
-	/**
-	 * Detect whether a site is a WordPress.com on Atomic site.
-	 *
-	 * @return bool
-	 */
 	public function is_wpcom_atomic() {
-		return jetpack_is_atomic_site();
+		return false;
 	}
 
 	public function is_wpcom_store() {
@@ -498,6 +493,7 @@ abstract class SAL_Site {
 	}
 
 	function get_logo() {
+
 		// Set an empty response array.
 		$logo_setting = array(
 			'id'    => (int) 0,
@@ -506,12 +502,16 @@ abstract class SAL_Site {
 		);
 
 		// Get current site logo values.
-		$logo_id = get_option( 'site_logo' );
+		$logo = get_option( 'site_logo' );
 
 		// Update the response array if there's a site logo currenty active.
-		if ( $logo_id ) {
-			$logo_setting['id']  = $logo_id;
-			$logo_setting['url'] = wp_get_attachment_url( $logo_id );
+		if ( $logo && 0 != $logo['id'] ) {
+			$logo_setting['id']  = $logo['id'];
+			$logo_setting['url'] = $logo['url'];
+
+			foreach ( $logo['sizes'] as $size => $properties ) {
+				$logo_setting['sizes'][ $size ] = $properties;
+			}
 		}
 
 		return $logo_setting;

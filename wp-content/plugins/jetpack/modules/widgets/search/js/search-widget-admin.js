@@ -300,8 +300,10 @@
 
 	// When widgets are updated, remove and re-add listeners
 	$( document ).on( 'widget-updated widget-added', function( e, widget ) {
-		var idBase = $( widget ).find('.id_base').val(),
-			isJetpackSearch = ( idBase && ( 'jetpack-search-filters' === idBase ) );
+		widget = $( widget );
+
+		var id = widget.attr( 'id' ),
+			isJetpackSearch = ( id && ( -1 !== id.indexOf( 'jetpack-search-filters' ) ) );
 
 		if ( ! isJetpackSearch ) {
 			 return;

@@ -30,7 +30,7 @@ class Review {
 	 */
 	public function maybeShowNotice() {
 		$dismissed = get_user_meta( get_current_user_id(), '_aioseo_plugin_review_dismissed', true );
-		if ( '1' === $dismissed || '2' === $dismissed ) {
+		if ( '1' === $dismissed ) {
 			return;
 		}
 
@@ -165,7 +165,6 @@ class Review {
 				aioseoSetupButton = function (dismissBtn) {
 					var notice      = document.querySelector('.notice.aioseo-review-plugin-cta'),
 						delay       = false,
-						relay       = true,
 						stepOne     = notice.querySelector('.step-1'),
 						stepTwo     = notice.querySelector('.step-2'),
 						stepThree   = notice.querySelector('.step-3')
@@ -177,7 +176,6 @@ class Review {
 
 						// Build the data to send in our request.
 						postData += '&delay=' + delay
-						postData += '&relay=' + relay
 						postData += '&action=aioseo-dismiss-review-plugin-cta'
 						postData += '&nonce=<?php echo esc_html( $nonce ); ?>'
 
@@ -202,14 +200,12 @@ class Review {
 						if (event.target.matches('.aioseo-dismiss-review-notice-delay')) {
 							event.preventDefault()
 							delay = true
-							relay = false
 							dismissBtn.click()
 						}
 						if (event.target.matches('.aioseo-dismiss-review-notice')) {
 							if ('#' === event.target.getAttribute('href')) {
 								event.preventDefault()
 							}
-							relay = false
 							dismissBtn.click()
 						}
 					})
@@ -249,10 +245,9 @@ class Review {
 
 		check_ajax_referer( 'aioseo-dismiss-review', 'nonce' );
 		$delay = isset( $_POST['delay'] ) ? 'true' === wp_unslash( $_POST['delay'] ) : false; // phpcs:ignore HM.Security.ValidatedSanitizedInput.InputNotSanitized
-		$relay = isset( $_POST['relay'] ) ? 'true' === wp_unslash( $_POST['relay'] ) : false; // phpcs:ignore HM.Security.ValidatedSanitizedInput.InputNotSanitized
 
 		if ( ! $delay ) {
-			update_user_meta( get_current_user_id(), '_aioseo_plugin_review_dismissed', $relay ? '2' : '1' );
+			update_user_meta( get_current_user_id(), '_aioseo_plugin_review_dismissed', true );
 			return wp_send_json_success();
 		}
 

@@ -177,7 +177,7 @@ abstract class Graph {
 			}
 
 			$value = $this->$f();
-			if ( $value || in_array( $k, aioseo()->schema->nullableFields, true ) ) {
+			if ( $value ) {
 				$data[ $k ] = $value;
 			}
 		}

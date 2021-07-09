@@ -118,7 +118,7 @@ class Usage {
 	 *
 	 * @return array An array of data to send.
 	 */
-	protected function getData() {
+	private function getData() {
 		$themeData = wp_get_theme();
 		$type      = $this->getType();
 

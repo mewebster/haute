@@ -38,13 +38,16 @@ class BreadcrumbList extends Graph {
 				'@id'      => $breadcrumb['url'] . '#listItem',
 				'position' => $breadcrumb['position'],
 				'item'     => [
-					'@type'       => 'WebPage',
-					'@id'         => $breadcrumb['url'],
+					// '@type'       => ! empty( $breadcrumb['type'] ) ? $breadcrumb['type'] : '', TODO: See if we can make this dynamic.
+					'@id'         => $breadcrumb['url'] . '#item',
 					'name'        => ! empty( $breadcrumb['name'] ) ? $breadcrumb['name'] : '',
 					'description' => ! empty( $breadcrumb['description'] ) ? $breadcrumb['description'] : '',
 					'url'         => $breadcrumb['url'],
 				]
 			];
+
+			// @TODO: Remove once we filter all graphs using recursion.
+			$listItem['item'] = array_filter( $listItem['item'] );
 
 			if ( 1 === $trailLength ) {
 				$data['itemListElement'][] = $listItem;

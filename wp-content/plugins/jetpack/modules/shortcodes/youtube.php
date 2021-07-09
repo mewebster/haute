@@ -223,24 +223,20 @@ function youtube_id( $url ) {
 	if ( isset( $args['start'] ) ) {
 		$start = (int) $args['start'];
 	} elseif ( isset( $args['t'] ) ) {
-		if ( is_numeric( $args['t'] ) ) {
-			$start = (int) $args['t'];
-		} else {
-			$time_pieces = preg_split( '/(?<=\D)(?=\d+)/', $args['t'] );
+		$time_pieces = preg_split( '/(?<=\D)(?=\d+)/', $args['t'] );
 
-			foreach ( $time_pieces as $time_piece ) {
-				$int = (int) $time_piece;
-				switch ( substr( $time_piece, - 1 ) ) {
-					case 'h':
-						$start += $int * 3600;
-						break;
-					case 'm':
-						$start += $int * 60;
-						break;
-					case 's':
-						$start += $int;
-						break;
-				}
+		foreach ( $time_pieces as $time_piece ) {
+			$int = (int) $time_piece;
+			switch ( substr( $time_piece, -1 ) ) {
+				case 'h':
+					$start += $int * 3600;
+					break;
+				case 'm':
+					$start += $int * 60;
+					break;
+				case 's':
+					$start += $int;
+					break;
 			}
 		}
 	}
@@ -338,13 +334,7 @@ function youtube_id( $url ) {
 
 		$layout = $is_amp ? 'layout="responsive" ' : '';
 
-		$html = sprintf(
-			'<iframe class="youtube-player" width="%s" height="%s" %ssrc="%s" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe>',
-			esc_attr( $w ),
-			esc_attr( $h ),
-			$layout,
-			esc_url( $src )
-		);
+		$html = "<iframe class='youtube-player' width='$w' height='$h' {$layout}src='" . esc_url( $src ) . "' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe>";
 	}
 
 	// Let's do some alignment wonder in a span, unless we're producing a feed.

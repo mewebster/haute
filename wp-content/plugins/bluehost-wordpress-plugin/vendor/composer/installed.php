@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '2.8.0',
-        'version' => '2.8.0.0',
+        'pretty_version' => '2.7.1',
+        'version' => '2.7.1.0',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '3f6016eaf55e56c7841f1cb71de78133c809e8d2',
+        'reference' => '31944160b3d8c35f1d52063858363431a8599f18',
         'name' => 'bluehost/bluehost-wordpress-plugin',
         'dev' => false,
     ),
     'versions' => array(
         'bluehost/bluehost-wordpress-plugin' => array(
-            'pretty_version' => '2.8.0',
-            'version' => '2.8.0.0',
+            'pretty_version' => '2.7.1',
+            'version' => '2.7.1.0',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '3f6016eaf55e56c7841f1cb71de78133c809e8d2',
+            'reference' => '31944160b3d8c35f1d52063858363431a8599f18',
             'dev_requirement' => false,
         ),
         'bluehost/endurance-wp-module-business-reviews' => array(

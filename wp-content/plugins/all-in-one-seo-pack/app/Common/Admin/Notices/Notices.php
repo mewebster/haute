@@ -34,10 +34,9 @@ class Notices {
 		add_action( 'aioseo_admin_notifications_update', [ $this, 'update' ] );
 
 		if ( is_admin() ) {
-			$this->review              = new Review();
-			$this->migration           = new Migration();
-			$this->import              = new Import();
-			$this->deprecatedWordPress = new DeprecatedWordPress();
+			$this->review    = new Review();
+			$this->migration = new Migration();
+			$this->import    = new Import();
 
 			add_action( 'admin_notices', [ $this, 'notice' ] );
 		}
@@ -324,7 +323,6 @@ class Notices {
 		$this->review->maybeShowNotice();
 		$this->migration->maybeShowNotice();
 		$this->import->maybeShowNotice();
-		$this->deprecatedWordPress->maybeShowNotice();
 	}
 
 	/**

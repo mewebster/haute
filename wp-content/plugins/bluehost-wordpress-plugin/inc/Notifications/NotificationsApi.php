@@ -80,7 +80,7 @@ class NotificationsApi {
 				'args'                => array(
 					'action'   => array(
 						'required'          => true,
-						'description'       => __( 'Event action', 'bluehost-wordpress-plugin' ),
+						'description'       => __( 'Event action' ),
 						'type'              => 'string',
 						'sanitize_callback' => function ( $value ) {
 							return sanitize_title( $value );
@@ -88,19 +88,19 @@ class NotificationsApi {
 					),
 					'category' => array(
 						'default'           => 'admin',
-						'description'       => __( 'Event category', 'bluehost-wordpress-plugin' ),
+						'description'       => __( 'Event category' ),
 						'type'              => 'string',
 						'sanitize_callback' => function ( $value ) {
 							return sanitize_title( $value );
 						},
 					),
 					'data'     => array(
-						'description' => __( 'Event data', 'bluehost-wordpress-plugin' ),
+						'description' => __( 'Event data' ),
 						'type'        => 'object',
 					),
 					'queue'    => array(
 						'default'           => true,
-						'description'       => __( 'Whether or not to queue the event', 'bluehost-wordpress-plugin' ),
+						'description'       => __( 'Whether or not to queue the event' ),
 						'type'              => 'boolean',
 						'sanitize_callback' => function ( $value ) {
 							return filter_var( $value, FILTER_VALIDATE_BOOLEAN );

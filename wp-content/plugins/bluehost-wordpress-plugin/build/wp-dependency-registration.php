@@ -1,7 +1,7 @@
 <?php
 /**
  * bluehost-wordpress-plugin
- * Build: 4637d3594bce575ea3cb
+ * Build: 1f25e084cb272ab9eb9a
  */
 
 /**
@@ -9,7 +9,7 @@
  */
  wp_register_script(
      'bwp-manifest-app',
-     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'manifest~app-a2356f240fdc634f1b9f.js',
+     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'manifest~app-802343a8826d40f8557f.js',
      apply_filters( 'bwp_manifest_app_js_deps', array('lodash', 'react', 'react-dom', 'react-router-dom', 'wp-a11y', 'wp-api-fetch', 'wp-components', 'wp-compose', 'wp-data', 'wp-dom-ready', 'wp-element', 'wp-html-entities', 'wp-i18n', 'wp-keycodes', 'wp-polyfill', 'wp-url', ) ),
      false,
      true
@@ -24,7 +24,7 @@
  }
  wp_register_script(
      'bwp-vendors-app',
-     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'vendors~app-0dc9135deb9786a4c4ca.js',
+     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'vendors~app-728d3fa113599c62d4fc.js',
      apply_filters( 'bwp_vendors_app_js_deps', array('bwp-manifest-app', ) ),
      false,
      true
@@ -39,7 +39,7 @@
  }
  wp_register_script(
      'bwp-app',
-     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'app-1628455c4848e7f2d3e2.js',
+     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'app-ad8b4a8f770642f49ba9.js',
      apply_filters( 'bwp_app_js_deps', array('bwp-vendors-app', ) ),
      false,
      true
@@ -54,7 +54,7 @@
  }
 wp_register_style(
     'bwp-app',
-     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'app-1628455c4848e7f2d3e2.css',
+     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'app-ad8b4a8f770642f49ba9.css',
     apply_filters( 'bwp_app_css_deps', array() ),
     false
 );
@@ -64,7 +64,7 @@ wp_register_style(
  */
  wp_register_script(
      'bwp-manifest-dashboard',
-     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'manifest~dashboard-f8963aa10cc4949752ac.js',
+     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'manifest~dashboard-df6db6b8d4d354d2c7a0.js',
      apply_filters( 'bwp_manifest_dashboard_js_deps', array('react', 'wp-api-fetch', 'wp-dom-ready', 'wp-element', 'wp-i18n', 'wp-polyfill', 'wp-url', ) ),
      false,
      true
@@ -79,7 +79,7 @@ wp_register_style(
  }
  wp_register_script(
      'bwp-dashboard',
-     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'dashboard-4cdf14d5f19a26156080.js',
+     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'dashboard-578119ac06e12e4ec650.js',
      apply_filters( 'bwp_dashboard_js_deps', array('bwp-manifest-dashboard', ) ),
      false,
      true
@@ -94,48 +94,8 @@ wp_register_style(
  }
 wp_register_style(
     'bwp-dashboard',
-     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'dashboard-4cdf14d5f19a26156080.css',
+     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'dashboard-578119ac06e12e4ec650.css',
     apply_filters( 'bwp_dashboard_css_deps', array() ),
-    false
-);
-
-/**
- * ENTRY: editortours
- */
- wp_register_script(
-     'bwp-manifest-editortours',
-     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'manifest~editortours-9dcdc5ff5c25c775b798.js',
-     apply_filters( 'bwp_manifest_editortours_js_deps', array('lodash', 'react', 'wp-api-fetch', 'wp-components', 'wp-data', 'wp-dom-ready', 'wp-edit-post', 'wp-element', 'wp-i18n', 'wp-plugins', 'wp-polyfill', 'wp-url', ) ),
-     false,
-     true
- );
- $bwpManifestEditortoursData = apply_filters( 'bwp_manifest_editortours_data', array() );
- if ( ! empty( $bwpManifestEditortoursData ) ) {
-    \wp_localize_script(
-        'bwp-manifest-editortours',
-        'bwpManifestEditortours',
-        $bwpManifestEditortoursData
-    );
- }
- wp_register_script(
-     'bwp-editortours',
-     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'editortours-dcbd0e586f4c209cf4ec.js',
-     apply_filters( 'bwp_editortours_js_deps', array('bwp-manifest-editortours', ) ),
-     false,
-     true
- );
- $bwpEditortoursData = apply_filters( 'bwp_editortours_data', array() );
- if ( ! empty( $bwpEditortoursData ) ) {
-    \wp_localize_script(
-        'bwp-editortours',
-        'bwpEditortours',
-        $bwpEditortoursData
-    );
- }
-wp_register_style(
-    'bwp-editortours',
-     trailingslashit( BLUEHOST_PLUGIN_URL ) . 'build/' . 'editortours-dcbd0e586f4c209cf4ec.css',
-    apply_filters( 'bwp_editortours_css_deps', array() ),
     false
 );
 

@@ -79,20 +79,19 @@ TEMPLATE
 			]
 		],
 		'advanced'         => [
-			'truSeo'           => [ 'type' => 'boolean', 'default' => true ],
-			'headlineAnalyzer' => [ 'type' => 'boolean', 'default' => true ],
-			'seoAnalysis'      => [ 'type' => 'boolean', 'default' => true ],
-			'dashboardWidget'  => [ 'type' => 'boolean', 'default' => true ],
-			'announcements'    => [ 'type' => 'boolean', 'default' => true ],
-			'postTypes'        => [
+			'truSeo'          => [ 'type' => 'boolean', 'default' => true ],
+			'seoAnalysis'     => [ 'type' => 'boolean', 'default' => true ],
+			'dashboardWidget' => [ 'type' => 'boolean', 'default' => true ],
+			'announcements'   => [ 'type' => 'boolean', 'default' => true ],
+			'postTypes'       => [
 				'all'      => [ 'type' => 'boolean', 'default' => true ],
 				'included' => [ 'type' => 'array', 'default' => [ 'post', 'page', 'product' ] ],
 			],
-			'taxonomies'       => [
+			'taxonomies'      => [
 				'all'      => [ 'type' => 'boolean', 'default' => true ],
 				'included' => [ 'type' => 'array', 'default' => [ 'category', 'post_tag', 'product_cat', 'product_tag' ] ],
 			],
-			'uninstall'        => [ 'type' => 'boolean', 'default' => false ]
+			'uninstall'       => [ 'type' => 'boolean', 'default' => false ]
 		],
 		'sitemap'          => [
 			'general' => [
@@ -521,7 +520,6 @@ TEMPLATE
 		$this->defaults['deprecated']['tools']['blocker']['custom']['referer']['default']      = implode( "\n", aioseo()->badBotBlocker->getRefererList() );
 
 		if ( $this->needsUpdate ) {
-			$this->needsUpdate = false;
 			$this->update( $this->getDbOptions() );
 		}
 	}
@@ -608,7 +606,7 @@ TEMPLATE
 				];
 			}
 
-			$this->setDynamicSearchAppearanceOptions( 'postTypes', $postType['name'], $defaultOptions );
+			$this->setDynamicSearchApperanceOptions( 'postTypes', $postType['name'], $defaultOptions );
 			$this->setDynamicSocialOptions( 'postTypes', $postType['name'] );
 			$this->setDynamicSitemapOptions( 'postTypes', $postType['name'] );
 		}
@@ -644,7 +642,7 @@ TEMPLATE
 				]
 			);
 
-			$this->setDynamicSearchAppearanceOptions( 'taxonomies', $taxonomy['name'], $defaultOptions );
+			$this->setDynamicSearchApperanceOptions( 'taxonomies', $taxonomy['name'], $defaultOptions );
 			$this->setDynamicSocialOptions( 'taxonomies', $taxonomy['name'] );
 			$this->setDynamicSitemapOptions( 'taxonomies', $taxonomy['name'] );
 		}
@@ -688,7 +686,7 @@ TEMPLATE
 				]
 			);
 
-			$this->setDynamicSearchAppearanceOptions( 'archives', $postType['name'], $defaultOptions );
+			$this->setDynamicSearchApperanceOptions( 'archives', $postType['name'], $defaultOptions );
 			$this->setDynamicSocialOptions( 'archives', $postType['name'] );
 		}
 	}
@@ -736,21 +734,13 @@ TEMPLATE
 	 * @param  array  $defaultOptions The default options for the object.
 	 * @return void
 	 */
-	protected function setDynamicSearchAppearanceOptions( $objectType, $objectName, $defaultOptions ) {
+	protected function setDynamicSearchApperanceOptions( $objectType, $objectName, $defaultOptions ) {
 		// Check if dynamic backup needs to be reset.
 		if ( ! empty( $this->options['internal']['searchAppearanceDynamicBackup'][ $objectType ]['value'][ $objectName ] ) ) {
 			$this->needsUpdate = true;
 
-			// If the backup is double-encoded, decode it again first. This code is to support versions before 4.1.2 and can be removed at some point in the future.
-			$value = $this->options['internal']['searchAppearanceDynamicBackup'][ $objectType ]['value'][ $objectName ];
-			if ( is_string( $value ) ) {
-				$value = json_decode( $value, true ) ? json_decode( $value, true ) : $value;
-			}
-
+			$defaultOptions = array_replace_recursive( $defaultOptions, $this->options['internal']['searchAppearanceDynamicBackup'][ $objectType ]['value'][ $objectName ] );
 			unset( $this->options['internal']['searchAppearanceDynamicBackup'][ $objectType ]['value'][ $objectName ] );
-			if ( is_array( $value ) && ! empty( $value ) ) {
-				$defaultOptions = array_replace_recursive( $defaultOptions, $value );
-			}
 		}
 
 		$this->defaults['searchAppearance']['dynamic'][ $objectType ][ $objectName ] = $defaultOptions;
@@ -777,16 +767,8 @@ TEMPLATE
 		if ( ! empty( $this->options['internal']['socialFacebookDynamicBackup'][ $objectType ]['value'][ $objectName ] ) ) {
 			$this->needsUpdate = true;
 
-			// If the backup is double-encoded, decode it again first. This code is to support versions before 4.1.2 and can be removed at some point in the future.
-			$value = $this->options['internal']['socialFacebookDynamicBackup'][ $objectType ]['value'][ $objectName ];
-			if ( is_string( $value ) ) {
-				$value = json_decode( $value, true ) ? json_decode( $value, true ) : $value;
-			}
-
+			$defaultOptions = array_replace_recursive( $defaultOptions, $this->options['internal']['socialFacebookDynamicBackup'][ $objectType ]['value'][ $objectName ] );
 			unset( $this->options['internal']['socialFacebookDynamicBackup'][ $objectType ]['value'][ $objectName ] );
-			if ( is_array( $value ) && ! empty( $value ) ) {
-				$defaultOptions = array_replace_recursive( $defaultOptions, $value );
-			}
 		}
 
 		$this->defaults['social']['facebook']['general']['dynamic'][ $objectType ][ $objectName ] = $defaultOptions;

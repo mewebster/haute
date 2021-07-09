@@ -1023,10 +1023,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-react-shepherd
-MIT
-https://opensource.org/licenses/MIT
-
 react-slick
 MIT
 The MIT License (MIT)
