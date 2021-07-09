@@ -1,0 +1,189 @@
+[28-Jun-2021 17:55:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[28-Jun-2021 18:21:48 UTC] Sync process for Gutenberg Blocks has started.
+[28-Jun-2021 18:21:48 UTC] CATEGORY:Importing categories..
+[28-Jun-2021 18:21:48 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[28-Jun-2021 18:21:48 UTC] CATEGORY:Completed category import.
+[28-Jun-2021 18:21:48 UTC] BLOCK: Getting Total Blocks
+[28-Jun-2021 18:21:48 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg
+[28-Jun-2021 18:21:48 UTC] BLOCK: Requests count 3
+[28-Jun-2021 18:21:48 UTC] BLOCK: Importing request 1 ..
+[28-Jun-2021 18:21:48 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1
+[28-Jun-2021 18:21:48 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[28-Jun-2021 18:21:48 UTC] BLOCK: Completed request 1
+[28-Jun-2021 18:21:48 UTC] BLOCK: Importing request 2 ..
+[28-Jun-2021 18:21:48 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2
+[28-Jun-2021 18:21:48 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[28-Jun-2021 18:21:48 UTC] BLOCK: Completed request 2
+[28-Jun-2021 18:21:48 UTC] BLOCK: Importing request 3 ..
+[28-Jun-2021 18:21:48 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3
+[28-Jun-2021 18:21:48 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[28-Jun-2021 18:21:48 UTC] BLOCK: Completed request 3
+[28-Jun-2021 18:21:48 UTC] SITE: Getting Total Sites
+[28-Jun-2021 18:21:48 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[28-Jun-2021 18:21:48 UTC] SITE: Request count 1
+[28-Jun-2021 18:21:48 UTC] SITE: Importing request 1 ..
+[28-Jun-2021 18:21:48 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[28-Jun-2021 18:21:48 UTC] SITE: Storing in option ast-block-templates-sites-1
+[28-Jun-2021 18:21:49 UTC] SITE: Completed request 1
+[28-Jun-2021 18:21:49 UTC] Sync process for Gutenberg Blocks is done.
+[30-Jun-2021 15:35:11 UTC] Sync process for Gutenberg Blocks has started.
+[30-Jun-2021 15:35:11 UTC] CATEGORY:Importing categories..
+[30-Jun-2021 15:35:11 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[30-Jun-2021 15:35:11 UTC] CATEGORY:Completed category import.
+[30-Jun-2021 15:35:11 UTC] BLOCK: Getting Total Blocks
+[30-Jun-2021 15:35:11 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg
+[30-Jun-2021 15:35:12 UTC] BLOCK: Requests count 3
+[30-Jun-2021 15:35:12 UTC] BLOCK: Importing request 1 ..
+[30-Jun-2021 15:35:12 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1
+[30-Jun-2021 15:35:12 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[30-Jun-2021 15:35:12 UTC] BLOCK: Completed request 1
+[30-Jun-2021 15:35:12 UTC] BLOCK: Importing request 2 ..
+[30-Jun-2021 15:35:12 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2
+[30-Jun-2021 15:35:12 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[30-Jun-2021 15:35:12 UTC] BLOCK: Completed request 2
+[30-Jun-2021 15:35:12 UTC] BLOCK: Importing request 3 ..
+[30-Jun-2021 15:35:12 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3
+[30-Jun-2021 15:35:12 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[30-Jun-2021 15:35:12 UTC] BLOCK: Completed request 3
+[30-Jun-2021 15:35:12 UTC] SITE: Getting Total Sites
+[30-Jun-2021 15:35:12 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[30-Jun-2021 15:35:12 UTC] SITE: Request count 1
+[30-Jun-2021 15:35:12 UTC] SITE: Importing request 1 ..
+[30-Jun-2021 15:35:12 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[30-Jun-2021 15:35:12 UTC] SITE: Storing in option ast-block-templates-sites-1
+[30-Jun-2021 15:35:12 UTC] SITE: Completed request 1
+[30-Jun-2021 15:35:12 UTC] Sync process for Gutenberg Blocks is done.
+[30-Jun-2021 16:03:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[30-Jun-2021 20:38:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[30-Jun-2021 20:39:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[30-Jun-2021 20:40:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 360
+[01-Jul-2021 17:14:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 765
+[01-Jul-2021 17:15:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 765
+[01-Jul-2021 17:16:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[01-Jul-2021 18:20:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[01-Jul-2021 18:40:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[01-Jul-2021 18:45:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[01-Jul-2021 20:21:43 UTC] Sync process for Gutenberg Blocks has started.
+[01-Jul-2021 20:21:43 UTC] CATEGORY:Importing categories..
+[01-Jul-2021 20:21:44 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[01-Jul-2021 20:21:44 UTC] CATEGORY:Completed category import.
+[01-Jul-2021 20:21:44 UTC] BLOCK: Getting Total Blocks
+[01-Jul-2021 20:21:44 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg
+[01-Jul-2021 20:21:44 UTC] BLOCK: Requests count 3
+[01-Jul-2021 20:21:44 UTC] BLOCK: Importing request 1 ..
+[01-Jul-2021 20:21:44 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1
+[01-Jul-2021 20:21:45 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[01-Jul-2021 20:21:45 UTC] BLOCK: Completed request 1
+[01-Jul-2021 20:21:45 UTC] BLOCK: Importing request 2 ..
+[01-Jul-2021 20:21:45 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2
+[01-Jul-2021 20:21:45 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[01-Jul-2021 20:21:45 UTC] BLOCK: Completed request 2
+[01-Jul-2021 20:21:45 UTC] BLOCK: Importing request 3 ..
+[01-Jul-2021 20:21:45 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3
+[01-Jul-2021 20:21:45 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[01-Jul-2021 20:21:45 UTC] BLOCK: Completed request 3
+[01-Jul-2021 20:21:45 UTC] SITE: Getting Total Sites
+[01-Jul-2021 20:21:45 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[01-Jul-2021 20:21:46 UTC] SITE: Request count 1
+[01-Jul-2021 20:21:46 UTC] SITE: Importing request 1 ..
+[01-Jul-2021 20:21:46 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[01-Jul-2021 20:21:47 UTC] SITE: Storing in option ast-block-templates-sites-1
+[01-Jul-2021 20:21:47 UTC] SITE: Completed request 1
+[01-Jul-2021 20:21:47 UTC] Sync process for Gutenberg Blocks is done.
+[06-Jul-2021 14:47:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[06-Jul-2021 14:48:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 28
+[06-Jul-2021 14:48:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 537
+[06-Jul-2021 14:51:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 373
+[06-Jul-2021 14:51:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 537
+[06-Jul-2021 15:23:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 360
+[06-Jul-2021 15:24:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[06-Jul-2021 15:29:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[06-Jul-2021 15:32:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 362
+[06-Jul-2021 15:34:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 537
+[06-Jul-2021 15:34:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/shophau1/public_html/wp-includes/class-wp-image-editor-imagick.php on line 537
+[06-Jul-2021 15:59:24 UTC] Sync process for Gutenberg Blocks has started.
+[06-Jul-2021 15:59:24 UTC] CATEGORY:Importing categories..
+[06-Jul-2021 15:59:24 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[06-Jul-2021 15:59:24 UTC] CATEGORY:Completed category import.
+[06-Jul-2021 15:59:24 UTC] BLOCK: Getting Total Blocks
+[06-Jul-2021 15:59:24 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg
+[06-Jul-2021 15:59:24 UTC] BLOCK: Requests count 3
+[06-Jul-2021 15:59:24 UTC] BLOCK: Importing request 1 ..
+[06-Jul-2021 15:59:24 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1
+[06-Jul-2021 15:59:25 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[06-Jul-2021 15:59:25 UTC] BLOCK: Completed request 1
+[06-Jul-2021 15:59:25 UTC] BLOCK: Importing request 2 ..
+[06-Jul-2021 15:59:25 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2
+[06-Jul-2021 15:59:25 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[06-Jul-2021 15:59:25 UTC] BLOCK: Completed request 2
+[06-Jul-2021 15:59:25 UTC] BLOCK: Importing request 3 ..
+[06-Jul-2021 15:59:25 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3
+[06-Jul-2021 15:59:25 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[06-Jul-2021 15:59:25 UTC] BLOCK: Completed request 3
+[06-Jul-2021 15:59:25 UTC] SITE: Getting Total Sites
+[06-Jul-2021 15:59:25 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[06-Jul-2021 15:59:25 UTC] SITE: Request count 1
+[06-Jul-2021 15:59:25 UTC] SITE: Importing request 1 ..
+[06-Jul-2021 15:59:25 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[06-Jul-2021 15:59:27 UTC] SITE: Storing in option ast-block-templates-sites-1
+[06-Jul-2021 15:59:27 UTC] SITE: Completed request 1
+[06-Jul-2021 15:59:27 UTC] Sync process for Gutenberg Blocks is done.
+[07-Jul-2021 20:46:05 UTC] Sync process for Gutenberg Blocks has started.
+[07-Jul-2021 20:46:05 UTC] CATEGORY:Importing categories..
+[07-Jul-2021 20:46:05 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[07-Jul-2021 20:46:05 UTC] CATEGORY:Completed category import.
+[07-Jul-2021 20:46:05 UTC] BLOCK: Getting Total Blocks
+[07-Jul-2021 20:46:05 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg
+[07-Jul-2021 20:46:05 UTC] BLOCK: Requests count 7
+[07-Jul-2021 20:46:05 UTC] BLOCK: Importing request 1 ..
+[07-Jul-2021 20:46:05 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1
+[07-Jul-2021 20:46:06 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[07-Jul-2021 20:46:06 UTC] BLOCK: Completed request 1
+[07-Jul-2021 20:46:06 UTC] BLOCK: Importing request 2 ..
+[07-Jul-2021 20:46:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2
+[07-Jul-2021 20:46:06 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[07-Jul-2021 20:46:06 UTC] BLOCK: Completed request 2
+[07-Jul-2021 20:46:06 UTC] BLOCK: Importing request 3 ..
+[07-Jul-2021 20:46:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3
+[07-Jul-2021 20:46:07 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[07-Jul-2021 20:46:07 UTC] BLOCK: Completed request 3
+[07-Jul-2021 20:46:07 UTC] BLOCK: Importing request 4 ..
+[07-Jul-2021 20:46:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4
+[07-Jul-2021 20:46:07 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[07-Jul-2021 20:46:07 UTC] BLOCK: Completed request 4
+[07-Jul-2021 20:46:07 UTC] BLOCK: Importing request 5 ..
+[07-Jul-2021 20:46:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=5
+[07-Jul-2021 20:46:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[07-Jul-2021 20:46:08 UTC] BLOCK: Completed request 5
+[07-Jul-2021 20:46:08 UTC] BLOCK: Importing request 6 ..
+[07-Jul-2021 20:46:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=6
+[07-Jul-2021 20:46:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[07-Jul-2021 20:46:08 UTC] BLOCK: Completed request 6
+[07-Jul-2021 20:46:08 UTC] BLOCK: Importing request 7 ..
+[07-Jul-2021 20:46:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=7
+[07-Jul-2021 20:46:09 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[07-Jul-2021 20:46:09 UTC] BLOCK: Completed request 7
+[07-Jul-2021 20:46:09 UTC] SITE: Getting Total Sites
+[07-Jul-2021 20:46:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[07-Jul-2021 20:46:10 UTC] SITE: Request count 5
+[07-Jul-2021 20:46:10 UTC] SITE: Importing request 1 ..
+[07-Jul-2021 20:46:10 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[07-Jul-2021 20:46:10 UTC] SITE: Storing in option ast-block-templates-sites-1
+[07-Jul-2021 20:46:11 UTC] SITE: Completed request 1
+[07-Jul-2021 20:46:11 UTC] SITE: Importing request 2 ..
+[07-Jul-2021 20:46:11 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[07-Jul-2021 20:46:11 UTC] SITE: Storing in option ast-block-templates-sites-2
+[07-Jul-2021 20:46:11 UTC] SITE: Completed request 2
+[07-Jul-2021 20:46:11 UTC] SITE: Importing request 3 ..
+[07-Jul-2021 20:46:11 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=3&page-builder=gutenberg
+[07-Jul-2021 20:46:12 UTC] SITE: Storing in option ast-block-templates-sites-3
+[07-Jul-2021 20:46:12 UTC] SITE: Completed request 3
+[07-Jul-2021 20:46:12 UTC] SITE: Importing request 4 ..
+[07-Jul-2021 20:46:12 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=4&page-builder=gutenberg
+[07-Jul-2021 20:46:13 UTC] SITE: Storing in option ast-block-templates-sites-4
+[07-Jul-2021 20:46:13 UTC] SITE: Completed request 4
+[07-Jul-2021 20:46:13 UTC] SITE: Importing request 5 ..
+[07-Jul-2021 20:46:13 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=5&page-builder=gutenberg
+[07-Jul-2021 20:46:14 UTC] SITE: Storing in option ast-block-templates-sites-5
+[07-Jul-2021 20:46:14 UTC] SITE: Completed request 5
+[07-Jul-2021 20:46:14 UTC] Sync process for Gutenberg Blocks is done.

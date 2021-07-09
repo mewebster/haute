@@ -1,0 +1,50 @@
+2021-07-02T15:48:01+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in /home4/shophau1/public_html/wp-content/plugins/dokan-lite/templates/account/vendor-registration.php:1
+Stack trace:
+#0 /home4/shophau1/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include()
+#1 /home4/shophau1/public_html/wp-content/plugins/dokan-lite/includes/Shortcodes/VendorRegistration.php(29): dokan_get_template_part('account/vendor-...', false, Array)
+#2 /home4/shophau1/public_html/wp-includes/shortcodes.php(343): WeDevs\Dokan\Shortcodes\VendorRegistration->render_shortcode('', '', 'dokan-vendor-re...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home4/shophau1/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(dokan\\...', 'do_shortcode_ta...', '[dokan-vendor-r...')
+#5 /home4/shophau1/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/Traits/Helpers/Shortcodes.php(79): do_shortcode('[dokan-vendor-r...')
+#6 /home4/shophau1/public_html/wp-content/plugins/all-in-one-seo-p in /home4/shophau1/public_html/wp-content/plugins/dokan-lite/templates/account/vendor-registration.php on line 1
+
+2021-07-02T16:28:19+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in /home4/shophau1/public_html/wp-content/plugins/dokan-lite/templates/account/vendor-registration.php:1
+Stack trace:
+#0 /home4/shophau1/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include()
+#1 /home4/shophau1/public_html/wp-content/plugins/dokan-lite/includes/Shortcodes/VendorRegistration.php(29): dokan_get_template_part('account/vendor-...', false, Array)
+#2 /home4/shophau1/public_html/wp-includes/shortcodes.php(343): WeDevs\Dokan\Shortcodes\VendorRegistration->render_shortcode('', '', 'dokan-vendor-re...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home4/shophau1/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(dokan\\...', 'do_shortcode_ta...', '[dokan-vendor-r...')
+#5 /home4/shophau1/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/Traits/Helpers/Shortcodes.php(79): do_shortcode('[dokan-vendor-r...')
+#6 /home4/shophau1/public_html/wp-content/plugins/all-in-one-seo-p in /home4/shophau1/public_html/wp-content/plugins/dokan-lite/templates/account/vendor-registration.php on line 1
+
+2021-07-02T17:00:11+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in /home4/shophau1/public_html/wp-content/plugins/dokan-lite/templates/account/vendor-registration.php:1
+Stack trace:
+#0 /home4/shophau1/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include()
+#1 /home4/shophau1/public_html/wp-content/plugins/dokan-lite/includes/Shortcodes/VendorRegistration.php(29): dokan_get_template_part('account/vendor-...', false, Array)
+#2 /home4/shophau1/public_html/wp-includes/shortcodes.php(343): WeDevs\Dokan\Shortcodes\VendorRegistration->render_shortcode('', '', 'dokan-vendor-re...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home4/shophau1/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(dokan\\...', 'do_shortcode_ta...', '[dokan-vendor-r...')
+#5 /home4/shophau1/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/Traits/Helpers/Shortcodes.php(79): do_shortcode('[dokan-vendor-r...')
+#6 /home4/shophau1/public_html/wp-content/plugins/all-in-one-seo-p in /home4/shophau1/public_html/wp-content/plugins/dokan-lite/templates/account/vendor-registration.php on line 1
+
+2021-07-02T17:03:05+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in /home4/shophau1/public_html/wp-content/plugins/dokan-lite/templates/account/vendor-registration.php:1
+Stack trace:
+#0 /home4/shophau1/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include()
+#1 /home4/shophau1/public_html/wp-content/plugins/dokan-lite/includes/Shortcodes/VendorRegistration.php(29): dokan_get_template_part('account/vendor-...', false, Array)
+#2 /home4/shophau1/public_html/wp-includes/shortcodes.php(343): WeDevs\Dokan\Shortcodes\VendorRegistration->render_shortcode('', '', 'dokan-vendor-re...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home4/shophau1/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(dokan\\...', 'do_shortcode_ta...', '[dokan-vendor-r...')
+#5 /home4/shophau1/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/Traits/Helpers/Shortcodes.php(79): do_shortcode('[dokan-vendor-r...')
+#6 /home4/shophau1/public_html/wp-content/plugins/all-in-one-seo-p in /home4/shophau1/public_html/wp-content/plugins/dokan-lite/templates/account/vendor-registration.php on line 1
+
+2021-07-02T17:06:01+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in /home4/shophau1/public_html/wp-content/plugins/dokan-lite/templates/account/vendor-registration.php:1
+Stack trace:
+#0 /home4/shophau1/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include()
+#1 /home4/shophau1/public_html/wp-content/plugins/dokan-lite/includes/Shortcodes/VendorRegistration.php(29): dokan_get_template_part('account/vendor-...', false, Array)
+#2 /home4/shophau1/public_html/wp-includes/shortcodes.php(343): WeDevs\Dokan\Shortcodes\VendorRegistration->render_shortcode('', '', 'dokan-vendor-re...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home4/shophau1/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(dokan\\...', 'do_shortcode_ta...', '[dokan-vendor-r...')
+#5 /home4/shophau1/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/Traits/Helpers/Shortcodes.php(79): do_shortcode('[dokan-vendor-r...')
+#6 /home4/shophau1/public_html/wp-content/plugins/all-in-one-seo-p in /home4/shophau1/public_html/wp-content/plugins/dokan-lite/templates/account/vendor-registration.php on line 1
+
